@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node main.ts",
+    "start": "tsc && node build/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "tslib": "^2.6.2"
+  }
+}
